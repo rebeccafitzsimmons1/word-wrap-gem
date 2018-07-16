@@ -5,7 +5,7 @@ RSpec.describe WrapWord do
 
   # it "does something useful" do
   #   expect(false).to eq(true)
-  # end
+  # endstering
 
   it "#empty string returns empty string" do
     expect(WrapWord::wrap("", 1)).to eq("")
